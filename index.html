@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comfy House</title>
+    <!--    Font Awesome    -->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+    <!--    Custom CSS  -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!--    Nav     -->
+<nav class="navbar">
+    <div class="navbar-center">
+       <span class="nav-icon">
+           <i class="fas fa-bars"></i>
+       </span>
+        <img alt="store logo" src="./images/logo.svg">
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+    </div>
+</nav>
+<!--       End of Nav      -->
+<!--        Hero        -->
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner-title">Furniture Collection</h1>
+        <button class="banner-btn">Shop Now</button>
+    </div>
+</header>
+<!--        End of Hero     -->
+
+<!--    Products    -->
+<section class="products">
+    <div class="section-title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="products-center">
+        <!--        &lt;!&ndash;    Single Product      &ndash;&gt;-->
+        <!--        <article class="product">-->
+        <!--            <div class="img-container">-->
+        <!--                <img src="./images/product-1.jpeg" alt="product" class="product-img">-->
+        <!--                <button class="bag-btn" data-id="1"><i class="fas fa-shopping-cart"></i>Add to Bag</button>-->
+        <!--            </div>-->
+        <!--            <h3>Queen Bed</h3>-->
+        <!--            <h4>$49.99</h4>-->
+        <!--        </article>-->
+        <!--        &lt;!&ndash;    End of Single Product     &ndash;&gt;-->
+    </div>
+</section>
+<!--    End of Products     -->
+<!--    Cart    -->
+<div class="cart-overlay">
+    <div class="cart">
+        <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+            <!--    Cart Items  -->
+<!--            <div class="cart-item">-->
+<!--                <img alt="cart image" src="./images/product-1.jpeg">-->
+<!--                <div>-->
+<!--                    <h4>Queen Bed</h4>-->
+<!--                    <h5>$49.99</h5>-->
+<!--                    <span class="remove-item">Remove</span>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <i class="fas fa-chevron-up"></i>-->
+<!--                    <p class="item-amount">1</p>-->
+<!--                    <i class="fas fa-chevron-down"></i>-->
+<!--                </div>-->
+<!--            </div>-->
+            <!--    End of Cart Items   -->
+        </div>
+        <div class="cart-footer">
+            <h3>Your Total : $ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+    </div>
+</div>
+<!--    End of Cart     -->
+
+<!--    Contentful      -->
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+<!--    App Js      -->
+<script src="app.js"></script>
+</body>
+</html>
